@@ -1,12 +1,15 @@
 import React from "react"
-function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-     
+const App = () => {
+ return (
+    < >
+     <div color="white">
+         <Login/>  
+     </div> 
     </>
   )
 }
 
 export default App
+
+//yaha par hamne login ko import kiya hain;
